@@ -1,10 +1,50 @@
-192.162.12.3 [06/04/2026 20:13:12] 0 - GET - 403 - /admin - 119ms - 361 - HTTP/1.1 - Chrome
-192.168.12.1 [06/04/2026 20:13:31] 1 - POST - 500 - /login - 615ms - 4189 - HTTP/1.1 - Bot
-192.100.12.3 [06/04/2026 20:13:44] 2 - PUT - 404 - /produtos - 423ms - 4634 - HTTP/1.1 - Crawler
-192.162.12.3 [06/04/2026 20:13:36] 3 - POST - 200 - /home - 170ms - 2764 - HTTP/1.1 - Mozilla
-192.100.12.3 [06/04/2026 20:14:00] 4 - POST - 200 - /home - 404ms - 2889 - HTTP/1.1 - Crawler
-192.168.12.1 [06/04/2026 20:14:52] 5 - PUT - 404 - /produtos - 704ms - 4753 - HTTP/1.1 - Crawler
-192.168.12.3 [06/04/2026 20:14:36] 6 - GET - 200 - /home - 518ms - 1656 - HTTP/1.1 - Crawler
-192.168.23.3 [06/04/2026 20:15:18] 7 - GET - 200 - /login - 766ms - 4017 - HTTP/1.1 - Crawler
-192.168.12.1 [06/04/2026 20:14:40] 8 - PUT - 200 - /home - 414ms - 1718 - HTTP/1.1 - Crawler
-192.168.12.1 [06/04/2026 20:14:33] 9 - POST - 200 - /produtos - 202ms - 144 - HTTP/1.1 - Chrome
+[08/04/2026 18:58:30] 201.10.1.20 - POST - 200 - /home - 328ms - 1528B - HTTP/2 - Edge - /
+[08/04/2026 18:58:33] 189.44.3.9 - GET - 200 - /carrinho - 436ms - 1096B - HTTP/1.0 - Edge - /produtos
+[08/04/2026 18:58:50] 189.44.3.9 - POST - 200 - /contato - 328ms - 2461B - HTTP/1.0 - Edge - /home
+[08/04/2026 18:58:48] 192.168.0.15 - GET - 200 - /home - 405ms - 3439B - HTTP/2 - Safari - /
+[08/04/2026 18:58:46] 192.168.0.12 - POST - 200 - /contato - 267ms - 1530B - HTTP/2 - Opera - /home
+[08/04/2026 18:59:20] 192.168.0.15 - POST - 404 - /produtos - 439ms - 630B - HTTP/2 - Firefox - /home
+[08/04/2026 18:59:00] 201.10.1.20 - GET - 403 - /produtos - 235ms - 2957B - HTTP/1.0 - Firefox - /home
+[08/04/2026 18:59:33] 172.16.5.4 - POST - 200 - /produtos - 668ms - 3647B - HTTP/1.0 - Firefox - /home
+[08/04/2026 18:58:54] 172.16.5.4 - GET - 200 - /sobre - 569ms - 1202B - HTTP/2 - Edge - /home
+[08/04/2026 18:59:33] 10.0.0.8 - GET - 404 - /produtos - 271ms - 421B - HTTP/1.1 - Firefox - /home
+[08/04/2026 18:59:30] 172.16.5.4 - POST - 200 - /carrinho - 506ms - 1503B - HTTP/1.0 - Chrome - /produtos
+[08/04/2026 18:59:25] 10.0.0.8 - POST - 404 - /home - 408ms - 494B - HTTP/1.0 - Edge - /
+[08/04/2026 18:59:06] 172.16.5.4 - POST - 404 - /home - 330ms - 592B - HTTP/1.0 - Opera - /
+[08/04/2026 18:59:48] 189.44.3.9 - POST - 200 - /home - 843ms - 1723B - HTTP/2 - Edge - /
+[08/04/2026 19:00:36] 201.10.1.20 - POST - 200 - /sobre - 296ms - 1699B - HTTP/2 - Edge - /home
+[08/04/2026 19:00:45] 201.10.1.20 - POST - 200 - /home - 141ms - 2408B - HTTP/1.1 - Safari - /
+[08/04/2026 18:59:50] 189.44.3.9 - POST - 200 - /contato - 374ms - 1459B - HTTP/1.0 - Edge - /home
+[08/04/2026 19:00:12] 201.10.1.20 - GET - 200 - /contato - 452ms - 2285B - HTTP/2 - Chrome - /home
+[08/04/2026 19:00:54] 189.44.3.9 - GET - 200 - /home - 252ms - 2456B - HTTP/1.1 - Chrome - /
+[08/04/2026 19:01:02] 201.10.1.20 - GET - 200 - /sobre - 601ms - 1375B - HTTP/1.1 - Firefox - /home
+[08/04/2026 19:01:10] 203.120.45.7 - POST - 403 - /login - 109ms - 556B - HTTP/1.1 - Safari - /home
+[08/04/2026 18:59:54] 203.120.45.7 - POST - 403 - /login - 219ms - 623B - HTTP/2 - Edge - /home
+[08/04/2026 18:59:36] 203.120.45.7 - POST - 403 - /login - 389ms - 1141B - HTTP/1.0 - Opera - /home
+[08/04/2026 19:02:20] 203.120.45.7 - POST - 403 - /login - 293ms - 831B - HTTP/1.1 - Safari - /home
+[08/04/2026 19:00:06] 203.120.45.7 - POST - 403 - /login - 149ms - 822B - HTTP/2 - Firefox - /home
+[08/04/2026 19:01:50] 192.168.0.12 - POST - 500 - /login - 1736ms - 409B - HTTP/2 - Safari - /home
+[08/04/2026 18:59:48] 10.0.0.8 - POST - 200 - /login - 169ms - 868B - HTTP/1.0 - Firefox - /home
+[08/04/2026 19:01:12] 201.10.1.20 - POST - 403 - /home - 447ms - 2111B - HTTP/2 - Chrome - /
+[08/04/2026 19:03:10] 189.44.3.9 - POST - 200 - /home - 652ms - 2174B - HTTP/1.0 - Firefox - /
+[08/04/2026 19:00:26] 192.168.0.15 - GET - 200 - /carrinho - 111ms - 2241B - HTTP/1.1 - Opera - /produtos
+[08/04/2026 19:00:30] 192.168.0.15 - POST - 200 - /login - 120ms - 667B - HTTP/2 - Safari - /home
+[08/04/2026 19:01:36] 192.168.0.12 - POST - 404 - /produtos - 240ms - 271B - HTTP/1.1 - Safari - /home
+[08/04/2026 19:02:46] 201.10.1.20 - GET - 200 - /produtos - 390ms - 3596B - HTTP/1.1 - Chrome - /home
+[08/04/2026 19:02:54] 10.0.0.8 - GET - 200 - /produtos - 700ms - 4684B - HTTP/2 - Chrome - /home
+[08/04/2026 19:03:36] 201.10.1.20 - POST - 200 - /sobre - 442ms - 1213B - HTTP/1.0 - Safari - /home
+[08/04/2026 19:00:15] 201.10.1.20 - POST - 200 - /home - 233ms - 2830B - HTTP/1.1 - Firefox - /
+[08/04/2026 19:00:18] 10.0.0.8 - POST - 403 - /login - 162ms - 1160B - HTTP/1.1 - Chrome - /home
+[08/04/2026 19:03:26] 172.16.5.4 - POST - 200 - /login - 143ms - 1075B - HTTP/1.0 - Opera - /home
+[08/04/2026 19:01:02] 192.168.0.15 - GET - 200 - /contato - 673ms - 2028B - HTTP/2 - Opera - /home
+[08/04/2026 19:05:00] 192.168.0.12 - POST - 500 - /login - 970ms - 338B - HTTP/2 - Edge - /home
+[08/04/2026 19:00:30] 192.168.0.15 - GET - 403 - /admin - 351ms - 1096B - HTTP/2 - Chrome - /home
+[08/04/2026 19:01:14] 189.44.3.9 - GET - 403 - /admin - 193ms - 1360B - HTTP/1.1 - Chrome - /home
+[08/04/2026 19:04:06] 192.168.0.12 - GET - 403 - /admin - 430ms - 942B - HTTP/1.1 - Edge - /home
+[08/04/2026 19:03:31] 192.168.0.15 - GET - 403 - /admin - 172ms - 726B - HTTP/1.1 - Firefox - /home
+[08/04/2026 19:02:10] 172.16.5.4 - GET - 200 - /carrinho - 203ms - 1381B - HTTP/1.1 - Firefox - /produtos
+[08/04/2026 19:03:00] 192.168.0.15 - GET - 404 - /carrinho - 396ms - 291B - HTTP/2 - Edge - /produtos
+[08/04/2026 19:03:52] 192.168.0.15 - GET - 200 - /carrinho - 656ms - 718B - HTTP/2 - Safari - /produtos
+[08/04/2026 19:00:51] 172.16.5.4 - POST - 200 - /sobre - 675ms - 737B - HTTP/1.1 - Edge - /home
+[08/04/2026 19:04:54] 189.44.3.9 - GET - 200 - /carrinho - 166ms - 2104B - HTTP/2 - Opera - /produtos
+[08/04/2026 19:02:35] 10.0.0.8 - POST - 200 - /produtos - 521ms - 3652B - HTTP/1.0 - Opera - /home
