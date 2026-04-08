@@ -1,6 +1,9 @@
 import random
 import datetime
 
+#NOMES: LORENZO FERREIRA RODRIGUES
+        #GUILHERME SALES
+        #WANDERSON LIMA
 
 # =========================
 # MENU
